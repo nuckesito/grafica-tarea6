@@ -1,0 +1,301 @@
+//////////////PARED-----------------------
+Poligono p1 = new Poligono(Color.Silver);
+p1.Adicionar(0, 0, 0);
+p1.Adicionar(10, 0, 0);
+p1.Adicionar(10, 15, 0);
+p1.Adicionar(0, 15, 0);
+Poligono p2 = new Poligono(Color.Silver);
+p2.Adicionar(10, 0, 0);
+p2.Adicionar(10, 15, 0);
+p2.Adicionar(10, 15, 3);
+p2.Adicionar(10, 0, 3);
+Poligono p3 = new Poligono(Color.Silver);
+p3.Adicionar(0, 0, 0);
+p3.Adicionar(0, 15, 0);
+p3.Adicionar(0, 15, 3);
+p3.Adicionar(0, 0, 3);
+Poligono p4 = new Poligono(Color.Silver);
+p4.Adicionar(0, 15, 0);
+p4.Adicionar(10, 15, 0);
+p4.Adicionar(10, 15, 3);
+p4.Adicionar(0, 15, 3);
+Poligono p5 = new Poligono(Color.Silver);
+p5.Adicionar(0, 0, 0);
+p5.Adicionar(10, 0, 0);
+p5.Adicionar(10, 0, 3);
+p5.Adicionar(0, 0, 3);
+Poligono p6 = new Poligono(Color.Silver);
+p6.Adicionar(0, 15, 3);
+p6.Adicionar(10, 15, 3);
+p6.Adicionar(10, 0, 3);
+p6.Adicionar(0, 0, 3);
+Parte partepared = new Parte();
+partepared.Adicionar(p1);
+partepared.Adicionar(p2);
+partepared.Adicionar(p3);
+partepared.Adicionar(p4);
+partepared.Adicionar(p5);
+partepared.Adicionar(p6);
+
+pared.AdicionarParte("pared", partepared);
+/////////////////REPISA------------------------
+Poligono p7 = new Poligono(Color.DarkOrange);
+p7.Adicionar(0, 10, 7);
+p7.Adicionar(0, 10.5f, 7);
+p7.Adicionar(10, 10.5f, 7);
+p7.Adicionar(10, 10, 7);
+Poligono p8 = new Poligono(Color.DarkOrange);
+p8.Adicionar(0, 10, 3);
+p8.Adicionar(0, 10.5f, 3);
+p8.Adicionar(10, 10.5f, 3);
+p8.Adicionar(10, 10, 3);
+Poligono p9 = new Poligono(Color.DarkOrange);
+p9.Adicionar(10, 10, 7);
+p9.Adicionar(10, 10.5f, 7);
+p9.Adicionar(10, 10.5f, 3);
+p9.Adicionar(10, 10, 3);
+Poligono p10 = new Poligono(Color.DarkOrange);
+p10.Adicionar(0, 10, 7);
+p10.Adicionar(0, 10.5f, 7);
+p10.Adicionar(0, 10.5f, 3);
+p10.Adicionar(0, 10, 3);
+Poligono p11 = new Poligono(Color.DarkOrange);
+p11.Adicionar(0, 10.5f, 7);
+p11.Adicionar(0, 10.5f, 3);
+p11.Adicionar(10, 10.5f, 3);
+p11.Adicionar(10, 10.5f, 7);
+Poligono p12 = new Poligono(Color.DarkOrange);
+p12.Adicionar(0, 10, 7);
+p12.Adicionar(0, 10, 3);
+p12.Adicionar(10, 10, 3);
+p12.Adicionar(10, 10, 7);
+Parte parterepisa = new Parte();
+parterepisa.Adicionar(p7);
+parterepisa.Adicionar(p8);
+parterepisa.Adicionar(p9);
+parterepisa.Adicionar(p10);
+parterepisa.Adicionar(p11);
+parterepisa.Adicionar(p12);
+repisa.AdicionarParte("parte", parterepisa);
+/////////////////////AUTO---------------------
+Parte llanta1 = new Parte();
+Parte llanta2 = new Parte();
+Parte llanta3 = new Parte();
+Parte llanta4 = new Parte();
+Parte puerta1 = new Parte();
+Parte puerta2 = new Parte();
+Parte maletero = new Parte();
+Parte capo = new Parte();
+Parte cuerpo = new Parte();
+Parte parabrisas = new Parte();
+Parte cuerpoarriba = new Parte();
+//-------LLANTA1
+Poligono p13 = new Poligono(Color.Black);
+p13.Adicionar(6.5f, 10.5f, 6);
+p13.Adicionar(6.5f, 11, 6);
+p13.Adicionar(7, 11f, 6);
+p13.Adicionar(7, 10.5f, 6);
+Poligono p14 = new Poligono(Color.Black);
+p14.Adicionar(6.5f, 10.5f, 5.5f);
+p14.Adicionar(6.5f, 11, 5.5f);
+p14.Adicionar(7, 11f, 5.5f);
+p14.Adicionar(7, 10.5f, 5.5f);
+Poligono p15 = new Poligono(Color.Black);
+p15.Adicionar(6.5f, 10.5f, 6);
+p15.Adicionar(6.5f, 10.5f, 5.5f);
+p15.Adicionar(7f, 10.5f, 5.5f);
+p15.Adicionar(7f, 10.5f, 6);
+Poligono p16 = new Poligono(Color.Black);
+p16.Adicionar(6.5f, 11f, 6);
+p16.Adicionar(6.5f, 11f, 5.5f);
+p16.Adicionar(7f, 11f, 5.5f);
+p16.Adicionar(7f, 11f, 6);
+Poligono p17 = new Poligono(Color.Black);
+p17.Adicionar(6.5f, 10.5f, 6);
+p17.Adicionar(6.5f, 11, 6);
+p17.Adicionar(6.5f, 11f, 5.5f);
+p17.Adicionar(6.5f, 10.5f, 5.5f);
+Poligono p18 = new Poligono(Color.Black);
+p18.Adicionar(7f, 10.5f, 6);
+p18.Adicionar(7f, 11, 6);
+p18.Adicionar(7f, 11f, 5.5f);
+p18.Adicionar(7f, 10.5f, 5.5f);
+
+llanta1.Adicionar(p13);
+llanta1.Adicionar(p14);
+llanta1.Adicionar(p15);
+llanta1.Adicionar(p16);
+llanta1.Adicionar(p17);
+llanta1.Adicionar(p18);
+auto.AdicionarParte("llanta1", llanta1);
+
+//------------LLANTA2
+llanta2 = new Parte(llanta1);
+llanta2.mover(0, 0, -1.5f);
+auto.AdicionarParte("llanta2", llanta2);
+//-- LLANTA 3
+llanta3 = new Parte(llanta1);
+llanta3.mover(-2, 0, 0);
+auto.AdicionarParte("llanta3", llanta3);
+//---- LLANTA 4
+llanta4 = new Parte(llanta2);
+llanta4.mover(-2, 0, 0);
+auto.AdicionarParte("llanta4", llanta4);
+//--puerta1
+Poligono p19 = new Poligono(Color4.LightBlue);
+p19.Adicionar(6, 12, 6);
+p19.Adicionar(6.25f, 12, 6);
+p19.Adicionar(6.75f, 11.5f, 6);
+p19.Adicionar(6, 11.5f, 6);
+puerta1.Adicionar(p19);
+Poligono p20 = new Poligono(Color4.Green);
+p20.Adicionar(6, 11, 6);
+p20.Adicionar(6, 11.5f, 6);
+p20.Adicionar(6.75f, 11.5f, 6);
+p20.Adicionar(6.75f, 11, 6);
+puerta1.Adicionar(p20);
+auto.AdicionarParte("puerta1", puerta1);
+//--puerta 2
+puerta2 = new Parte(puerta1);
+puerta2.mover(0, 0, -2);
+auto.AdicionarParte("puerta2", puerta2);
+///-maletero
+Poligono p21=new Poligono(Color4.Green);
+p21.Adicionar(4, 11.5f, 6);
+p21.Adicionar(4.5f, 11.5f, 6);
+p21.Adicionar(4.5f, 11.5f, 4);
+p21.Adicionar(4, 11.5f, 4);
+maletero.Adicionar(p21);
+auto.AdicionarParte("maletero", maletero);
+//--capo
+Poligono p22=new Poligono(Color.Green);
+p22.Adicionar(6.75f,11.5f,6);
+p22.Adicionar(7.5f, 11.5f, 6);
+p22.Adicionar(7.5f, 11.5f, 4);
+p22.Adicionar(6.75f, 11.5f, 4);
+capo.Adicionar(p22);
+auto.AdicionarParte("capo", capo);
+//--cuerpo
+///lado derecho
+Poligono p23 = new Poligono(Color4.DarkGreen);
+p23.Adicionar(4, 11.5f, 6);
+p23.Adicionar(4.5f, 11.5f, 6);
+p23.Adicionar(5, 12, 6);
+p23.Adicionar(5, 11.5f, 6);
+p23.Adicionar(6.01f, 11.5f, 6);
+p23.Adicionar(6.01f, 11.01f, 6);
+p23.Adicionar(6.74f, 11.01f, 6);
+p23.Adicionar(6.74f, 11.5f, 6);
+p23.Adicionar(7.5f, 11.5f, 6);
+p23.Adicionar(7.5f, 11f, 6);
+p23.Adicionar(4f, 11f, 6);
+cuerpo.Adicionar(p23);
+//lado izquierdo
+Poligono p24 = new Poligono(p23, Color4.DarkGreen);
+p24.Mover(0, 0, -2);
+cuerpo.Adicionar(p24);
+//parte delantera
+Poligono p25 = new Poligono(Color4.DarkGreen);
+p25.Adicionar(7.5f, 11.5f, 6);
+p25.Adicionar(7.5f, 11f, 6);
+p25.Adicionar(7.5f, 11f, 4);
+p25.Adicionar(7.5f, 11.5f, 4);
+cuerpo.Adicionar(p25);
+//parte atras
+Poligono p26 = new Poligono(p25,Color4.DarkGreen);
+p26.Mover(-3.5f,0,0);
+cuerpo.Adicionar(p26);
+
+//parte abajo
+Poligono p32 = new Poligono(Color4.Red);
+p32.Adicionar(4, 11, 6);
+p32.Adicionar(7.5f, 11, 6);
+p32.Adicionar(7.5f, 11, 4);
+p32.Adicionar(4, 11, 4);
+cuerpo.Adicionar(p32);
+auto.AdicionarParte("cuerpo", cuerpo);
+//-------------------parabrisas
+//parte delantera
+Poligono p27 = new Poligono(Color4.LightBlue);
+p27.Adicionar(6.25f, 12, 6);
+p27.Adicionar(6.75f, 11.5f, 6);
+p27.Adicionar(6.75f, 11.5f, 4);
+p27.Adicionar(6.25f, 12, 4);
+parabrisas.Adicionar(p27);
+//parte trasera
+Poligono p28 = new Poligono(Color4.LightBlue);
+p28.Adicionar(5, 12, 6);
+p28.Adicionar(4.5f, 11.5f, 6);
+p28.Adicionar(4.5f, 11.5f, 4);
+p28.Adicionar(5, 12, 4);
+parabrisas.Adicionar(p28);
+//costado derecho
+Poligono p30 = new Poligono(Color4.LightBlue);
+p30.Adicionar(5, 12, 6);
+p30.Adicionar(6, 12, 6);
+p30.Adicionar(6, 11.5f, 6);
+p30.Adicionar(5, 11.5f, 6);
+parabrisas.Adicionar(p30);
+//costado izquierdo
+Poligono p31 = new Poligono(p30, Color4.LightBlue);
+p31.Mover(0, 0, -2);
+parabrisas.Adicionar(p31);
+auto.AdicionarParte("parabrisas", parabrisas);
+//cuerpo arriba
+Poligono p29 = new Poligono(Color4.DarkGreen);
+p29.Adicionar(5, 12, 6);
+p29.Adicionar(6.25f, 12, 6);
+p29.Adicionar(6.25f, 12, 4);
+p29.Adicionar(5, 12, 4);
+cuerpoarriba.Adicionar(p29);
+auto.AdicionarParte("cuerpoarriba", cuerpoarriba);
+
+/////////////ESCENARIO
+scenario = new Escenario();
+scenario.AdicionarObjeto("auto", auto);
+scenario.AdicionarObjeto("pared", pared);
+scenario.AdicionarObjeto("repisa", repisa);
+Utilidades.Guardar<Escenario>(scenario, "Escenario");
+scenario2 = new Escenario(Utilidades.Cargar<Escenario>("Escenario"));
+scenario2.Mover(-9, 8, 9);
+/*
+scenario = new Escenario(Utilidades.Cargar<Escenario>("scenario1"));
+scenario2 = new Escenario(Utilidades.Cargar<Escenario>("scenario1"));
+scenario2.Mover(-15, 8, 8);
+scenario = Utilidades.Cargar<Escenario>("scenario");
+/*scenario2 = new Escenario(scenario);
+scenario2.Mover(0, 8, 8);
+scenario3 = new Escenario(scenario);
+scenario3.Mover(-10, 5, -8);
+scenario4 = new Escenario(scenario);
+scenario4.Mover(12,-10, -8);
+//auto.Mover(0, 0, 3);*/
+
+////////////////////////////////
+/*pared2 = new Objeto(pared);
+pared2.Mover(0, 8, 8);
+repisa2 = new Objeto(repisa);
+repisa2.Mover(0, 8, 8);
+auto2 = new Objeto(auto);
+auto2.Mover(0, 8, 8);*/
+
+/*pared2 = new Objeto(pared);
+pared2.Mover(-10, 8, 8);
+repisa2 = new Objeto(repisa);
+repisa2.Mover(-10, 8, 8);
+auto2 = new Objeto(auto);
+auto2.Mover(-10, 8, 8);
+
+pared3 = new Objeto(pared);
+pared3.Mover(-10, 5, -8);
+repisa3 = new Objeto(repisa);
+repisa3.Mover(-10, 5, -8);
+auto3 = new Objeto(auto);
+auto3.Mover(-10, 5, -8);
+
+pared4 = new Objeto(pared);
+pared4.Mover(12, -10, -8);
+repisa4 = new Objeto(repisa);
+repisa4.Mover(12, -10, -8);
+auto4 = new Objeto(auto);
+auto4.Mover(12, -10, -8);*/
